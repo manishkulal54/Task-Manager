@@ -26,8 +26,9 @@ export default function Signin() {
     }
 
     // fetching the data from the backend
-    // const url="http://localhost:3001/api/user"
-    const url="https://tender-foal-tunic.cyclic.app"
+    // const url="http://localhost:3001"
+    const url="https://inquisitive-duck-trousers.cyclic.app"
+
     const response=await fetch(url+'/api/user/signin',{
       method:"POST",
       headers:{

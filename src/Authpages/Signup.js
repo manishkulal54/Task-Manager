@@ -26,8 +26,10 @@ export default function Signup() {
       return setErr("Invalid Email");
     }
     document.title="Singing up...."
-    // const url = "http://localhost:3001/api/user";
-    const url = "https://tender-foal-tunic.cyclic.app";
+    // const url = "http://localhost:3001";
+    const url = "https://inquisitive-duck-trousers.cyclic.app";
+
+
     const response = await fetch(url + "/api/user/signup", {
       method: "POST",
       headers: {

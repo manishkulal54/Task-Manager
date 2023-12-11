@@ -3,7 +3,8 @@ import React, { useState, useEffect } from "react";
 export default function TaskList() {
   //eslint-disable-next-line
   const [tasks, setTasks] = useState([]);
-  const url = "https://tender-foal-tunic.cyclic.app/api/task";
+  const url = "https://inquisitive-duck-trousers.cyclic.app/api/task";
+  // const url="http://localhost:3001/api/task"
 
   useEffect(() => {
     fetchTask();

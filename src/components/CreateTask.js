@@ -18,7 +18,10 @@ export default function CreateTask() {
     if(title===""){
       return setErr("Title should be there")
     }
-    const url='https://tender-foal-tunic.cyclic.app/api/task'
+    const url='https://inquisitive-duck-trousers.cyclic.app/api/task'
+    // const url="http://localhost:3001/api/task"
+
+    
     const response=await fetch(`${url}/createtask:${userid}`,{
       method:'PUT',
       headers:{
